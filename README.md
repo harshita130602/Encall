@@ -1,5 +1,5 @@
 # Welcome to ENCALL :)
-**Hosted on**  - https://encall.netlify.app/
+
 ![](https://i.imgur.com/bcU6nYd.png)
 
 
@@ -20,7 +20,7 @@
 
 ## Introduction
 **ENCALL** is a Peer-to-Peer Communication platform developed by **Harshita Upadhyay** using Reactjs, Nodejs along with SOCKET.IO and WebRTC. It is a suitable application for web as well as mobile to use for Interviews as it offers Video/Audio Conferencing along with notes and whiteboard facility.
-
+**Hosted on**  - https://encall.netlify.app/
 
 ## Technologies used
 
