@@ -81,7 +81,17 @@ const ContextProvider = ({ children }) => {
   const answerCall = () => {
     setCallAccepted(true);
     setOtherUser(call.from);
-    const peer = new Peer({ initiator: false, trickle: false, stream });
+    const peer = new Peer({ initiator: false, trickle: false, stream, 
+      config: {
+        iceServers: [
+          {
+            urls: "turn:20.204.87.0:3478",
+            username: "turn_test",
+            credential: "turn_test987",
+          },
+        ],
+      }, 
+    });
 
     peer.on('signal', (data) => {
       socket.emit('answercall', {
@@ -106,7 +116,17 @@ const ContextProvider = ({ children }) => {
     message.info(
       'Calling user... Please wait for the other user to accept the call'
     );
-    const peer = new Peer({ initiator: true, trickle: false, stream });
+    const peer = new Peer({ initiator: true, trickle: false, stream, 
+      config: {
+        iceServers: [
+          {
+            urls: "turn:20.204.87.0:3478",
+            username: "turn_test",
+            credential: "turn_test987",
+          },
+        ],
+      },
+    });
     setOtherUser(id);
 
     peer.on('signal', (data) => {
