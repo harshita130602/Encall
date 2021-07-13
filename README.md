@@ -7,20 +7,21 @@
 
 
 ## CONTENTS OF THIS FILE
-* Introduction
-* Technologies used
-* Requirements
-* Installation
-* Configuration
-* Features
-* Maintainer
+* **Introduction**
+* **Technologies used**
+* **Requirements**
+* **Installation**
+* **Agile Methodology**
+* **Configuration**
+* **Features**
+* **Maintainer**
 ---
 
 
 
 ## Introduction
 **ENCALL** is a Peer-to-Peer Communication platform developed by **Harshita Upadhyay** using Reactjs, Nodejs along with SOCKET.IO and WebRTC. It is a suitable application for web as well as mobile to use for Interviews as it offers Video/Audio Conferencing along with notes and whiteboard facility.
-**Hosted on**  - https://encall.netlify.app/
+Hosted on - https://encall.netlify.app/
 
 ## Technologies used
 
@@ -74,8 +75,24 @@ npm start
 
 ---
 
+## Agile Methodology Used
+The Agile methodology is a way to manage a project by breaking it up into several phases, popularly known as sprints. So, the whole development of the project was divided into four different sprints :- 
+*  **Design** - The Design Sprint is a fast-paced, agile approach to product design. Essentially, it was a week long process which was used to develop and test new ideas using a series of highly-effective Design Thinking exercises. All of the features of the application were decided along with the design of the front-end of the application. 
+    ***Note*** - Front-end was finalised using Adobe Illustrator.
+
+* **Build** - The focus of the Build phase,which was a week long, was to develop the system to the point where it is ready for pre-production testing. In previous phases, the majority of the requirements have been identified and the architecture for the system has been baselined. So, In this sprint, the whole backend along with frontend was coded for the following features:- 
+    * Video/Audio Meeting
+    * Turn on/off the Audio/Video
+    * Downloadable Notes   
+
+
+* **Adapt** - In the adapt phase of five days, the peer-to-peer '*chat feature*' was adapted as per the requirement. Along with it, the feature of '*notification for chat*' was also added to the project. 
+
+* **Testing & Delivery** -  In a week long phase of testing and delivery, all of the features were tested for 3 days and some of the features were refined, the refinement and deployment of the application took 2 days. After the completion of the application, two days were given to technical document along with the demo video.
+---
+
  ## Configuration
- The whole File/Folder(s) location is described below:-
+ The whole File/Folder(s) location inside the main project directory is described below:-
  
 ![](https://i.imgur.com/OieKUo5.png)
 
