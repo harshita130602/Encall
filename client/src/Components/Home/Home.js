@@ -54,7 +54,7 @@ const Home = (props) => {
               props.history.push("join");
             }}
           >
-            Join Meeting
+            Join a Meeting
           </button>
           <Link
             className="meet-button"
@@ -63,7 +63,7 @@ const Home = (props) => {
               setNewMeet(true); // setting new meet on click of this button
             }}
           >
-            Start Meeting
+            Host a Meeting
           </Link>
         </div>
       </div>
